@@ -1,5 +1,5 @@
 # scRNA-Seq-Variants-calling
-1.  Pull out the BAM files from the Ten X data.
+1.  Pull out the BAM files from the 10X data.
   betsy_run.py --num_cores 20 --network_png proc12.pdf \
     --input TenXCountResults --input_file proc01 \
     --output DemultiplexedTenXBamFolder --output_file proc11 \
