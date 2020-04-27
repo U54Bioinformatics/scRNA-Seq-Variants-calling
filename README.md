@@ -94,6 +94,7 @@ This should generate an SVM file (call01.txt) and a directory of VCFs (call05).
 
 
 4. Add coverage data
+
 betsy_run.py --network_png mut42.pdf
 --input SimpleVariantMatrix --input_file call01.txt
 --dattr SimpleVariantMatrix.with_coverage=no
